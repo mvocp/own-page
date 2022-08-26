@@ -1,141 +1,67 @@
 <!doctype html>
-<html>
-<head>
+<html lang="en" class="h-100">
+  <head>
     <meta charset="utf-8">
-    <title>VanllaOcap . Maybe.</title>
-   <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Cover Template · Bootstrap v5.1</title>
 
-<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
 
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
-  integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
-  crossorigin="anonymous"
-/>
+    
 
-<script
-  src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
-  integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
-  crossorigin="anonymous"
-></script>
-</head>
-<body>
-<div class="mdui-tab mdui-color-theme-600" mdui-tab>
-<a href="#example7-tab1" class="mdui-ripple mdui-ripple-white"><button class="mdui-btn" mdui-drawer="{target: '#left-drawer'}">
-    <i class="mdui-icon material-icons">menu</i>
-    <label>Menu</label></button>
-  </a>
-</div>
-  <div class="mdui-drawer mdui-drawer-close" id="left-drawer">
-  <div class="mdui-typo-title-opacity"><center><br>Main Menu</center></div>
-  <ul class="mdui-list">
-  <div class="mdui-divider"></div>
-              <li class="mdui-subheader">相关链接</li>
-			   <li class="mdui-list-item mdui-ripple" onclick="window.location.href='https://blog.vanlla.top'">
-                <i class="mdui-list-item-icon mdui-icon material-icons">library_books</i>
-                <div class="mdui-list-item-content">Blog</div>
-            </li>
-  <li class="mdui-list-item mdui-ripple"  onclick="window.location.href='https://q0-net.ipq.co/'">
-    <i class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</i>
-    <div class="mdui-list-item-content">Q0网络 主机</div>
-  </li>
-  <li class="mdui-list-item mdui-ripple">
-    <i class="mdui-list-item-icon mdui-icon material-icons" onclick="window.location.href='mailto.:fourc@136588.club'">send</i>
-    <div class="mdui-list-item-content">发邮件</div>
-  </li>
-    <div class="mdui-divider"></div>
-  <li class="mdui-list-item mdui-ripple"  onclick="window.location.href='http://cc.csor.cn:1165'">
-    <i class="mdui-list-item-icon"></i>
-    <div class="mdui-list-item-content">论坛</div>
-  </li>
-  <li class="mdui-list-item mdui-ripple" onclick="window.location.href='/mc.html'">
-    <i class="mdui-list-item-icon"></i>
-    <div class="mdui-list-item-content">MC服务器</div>
-  </li>
-</ul>
-  </div>
-  <div class="mdui-container">
-  <div class="mdui-typo-display-2" align="center">生活不止苟且，还有诗和远方.</div>
-  <div class="mdui-typo">
-  <blockquote>
-    <p>无论走到哪里，都应该记住，过去都是假的，回忆是一条没有尽头的路，一切以往的春天都不复存在，就连那最坚韧而又狂乱的爱情归根结底也不过是一种转瞬即逝的现实。</p>
-    <footer>马尔克斯 ——《百年孤独》</footer>
-  </blockquote>
-  <br>
-</div>
-<div class="mdui-typo-display-1">好玩的：</div>
-<div class="mdui-card card">
-        <div class="mdui-card-primary">
-            <div class="mdui-card-primary-title">屑百度！</div>
-        </div>
-                    <div class="mdui-textfield">
-        <div class="mdui-card-content mdui-typo"><center><form id="form" name="f" action="https://www.baidu.com/s" class="fm  class="mdui-textfield-input""><input type="hidden" name="ie" value="utf-8" class="mdui-textfield-input"><input id="kw" name="wd" class="s_ipt" class="mdui-textfield-input"><span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn"></span></div>
-        </form></center></div>
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark" background="https://api.imlazy.ink/img/">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">VanllaOcap</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="#">主页</a>
+        <a class="nav-link" href="//blog.vanlla.net">博客</a>
+        <a class="nav-link" href="//blog.vanlla.net/about">关于</a>
+      </nav>
     </div>
-<h3><a id="example-left-top"
-class="mdui-ripple">Vanlla.fun</a></h3>
-<br>
-<div class="mdui-typo-display-1">关于我：</div>
-<p>一个除了html啥都不会的屑程序猿(((</p>
-<br>
-<h3>我的邮箱：<a href="mailto:fourc@136588.club">fourc@136588.club</a> or <a href="mailto:kzstar256@gmail.com">kzstar256@gmail.com</a></h3>
-<h3>我的QQ：66870019</h3>
-<h3>Bilibili频道！<a target="_blank" href="https://space.bilibili.com/433914243">https://space.bilibili.com/433914243</a>
-<br>
-<br>
-	<a href="https://q0-net.ipq.co/"><img src="/ad.png" /></a>
-	<a id="jsl_speed_stat3" href="http://defense.yunaq.com/#zid=5d19d3134dcc1d317735a198" target="_blank">知道创宇云防御</a><script src="//static.yunaq.com/static/js/stat/picture3_stat.js" charset="utf-8" type="text/javascript"></script>
+  </header>
+
+  <main class="px-3">
+    <h1>你好，我是Vanlla</h1>
+    <p class="lead">一名php爱好者，开发者，喜欢捣鼓网站。Pd服务器的OP，是个初中生</p>
+    <p class="lead">
+    </p>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Powered by <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by VanllaOcap.</p>
+  </footer>
 </div>
-	 
-</body>
-<script>
-var $ = mdui.$;
 
-$('#example-top').on('click', function () {
-  mdui.snackbar({
-    message: 'top',
-    position: 'top'
-  });
-});
 
-$('#example-bottom').on('click', function () {
-  mdui.snackbar({
-    message: 'bottom',
-    position: 'bottom'
-  });
-});
-
-$('#example-left-top').on('click', function () {
-  mdui.snackbar({
-    message: '该网站已关闭……',
-    position: 'left-top'
-  });
-});
-
-$('#example-left-bottom').on('click', function () {
-  mdui.snackbar({
-    message: 'left-bottom',
-    position: 'left-bottom'
-  });
-});
-
-$('#example-right-top').on('click', function () {
-  mdui.snackbar({
-    message: 'right-top',
-    position: 'right-top'
-  });
-});
-
-$('#example-right-bottom').on('click', function () {
-  mdui.snackbar({
-    message: 'right-bottom',
-    position: 'right-bottom'
-  });
-});
-</script>
+    
+  </body>
 </html>
