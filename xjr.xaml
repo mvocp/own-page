@@ -12,6 +12,7 @@
                    Text="[TIPS]如果你是第一次进入，请按T打开聊天框输入指令：/register 你要的密码 重复一次密码，之后你进服输入/login 你设置的密码 即可开玩" />
     </StackPanel>
 </local:MyCard>
+
  <local:MyCard Title="白名单的问题">
     <StackPanel Margin="25,40,23,15">
             <TextBlock Margin="0,0,0,4" TextWrapping="0"
@@ -19,4 +20,10 @@
                  <TextBlock Margin="0,0,0,4" TextWrapping="0"
                    Text="这个端需要的自己配置，看不懂自己百度，已经包含了生存必备的mod" />
  </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="一些对新人的警告" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15" TextWrapping="0">
+        <local:MyHint Text="xjr服务器有几个很难让人忍受的行为希望你们知道 拒绝开挂，拒绝崩服，停止矿透，不要刷屏，最好别lowiq，好好阅读这些帮助，否则后果自负" />
+</StackPanel>
 </local:MyCard>
