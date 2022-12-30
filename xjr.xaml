@@ -1,0 +1,14 @@
+ <local:MyCard Title="如何进入XJR服">
+    <StackPanel Margin="25,40,23,15">
+            <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="1.如果有正版，在左边选微软后点添加账号，然后登录，之后进行下一步，没有正版点击离线，然后输入个用户名，不能有空格、中文，之后进行下一步" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="2.点击启动游戏，之后你会进入游戏界面" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="3.点击多人游戏，会弹出一个提示，你确定就行" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="4.第一个就是xjr服的服务器，点击选中，然后点下面的加入服务器" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="[TIPS]如果你是第一次进入，请按T打开聊天框输入指令：/register 你要的密码 重复一次密码，之后你进服输入/login 你设置的密码 即可开玩" />
+    </StackPanel>
+</local:MyCard>
