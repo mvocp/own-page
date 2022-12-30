@@ -12,3 +12,11 @@
                    Text="[TIPS]如果你是第一次进入，请按T打开聊天框输入指令：/register 你要的密码 重复一次密码，之后你进服输入/login 你设置的密码 即可开玩" />
     </StackPanel>
 </local:MyCard>
+ <local:MyCard Title="白名单的问题">
+    <StackPanel Margin="25,40,23,15">
+            <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="有的人进服会进不去，提示白名单，加Q群701294943，获取白名单，审核需要时间你别急" />
+                 <TextBlock Margin="0,0,0,4" TextWrapping="0"
+                   Text="这个端需要的自己配置，看不懂自己百度，已经包含了生存必备的mod" />
+ </StackPanel>
+</local:MyCard>
