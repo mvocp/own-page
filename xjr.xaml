@@ -24,3 +24,4 @@
 
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="拒绝开挂，拒绝崩服，停止矿透，不要刷屏，最好别lowiq，好好阅读这些帮助，否则后果自负" />
+</StackPanel>
