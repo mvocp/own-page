@@ -1,93 +1,152 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>欢迎！- VanllaOcap的网站</title>
-<link rel="icon" href="favicon.ico" type="image/ico">
-<meta name="keywords" content="vanlla,VanllaOcap,mvocp,kyycloud,40009.xyz">
-<meta name="description" content="我是VANLLAOCAP">
-<meta name="author" content="yinqi">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/materialdesignicons.min.css" rel="stylesheet">
-<link rel="stylesheet" href="js/bootstrap-multitabs/multitabs.min.css">
-<link href="css/style.min.css" rel="stylesheet">
-</head>
-  
-<body>
-<div class="lyear-layout-web">
-  <div class="lyear-layout-container">
-    <!--左侧导航-->
-    <aside class="lyear-layout-sidebar">
-      
-      <!-- logo -->
-      <div id="logo" class="sidebar-header">
-        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
-      </div>
-      <div class="lyear-layout-sidebar-scroll"> 
-        
-        <nav class="sidebar-main">
-          <ul class="nav nav-drawer">
-            <li class="nav-item active"> <a class="multitabs" href="lyear_main.html"><i class="mdi mdi-home"></i> <span>首 页</span></a> </li>
-            <li class="nav-item">
-              <a href="https://blog.255650.xyz/" class="multitabs"><i class="mdi mdi-palette"></i> <span>我的博客</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="./about.html" class="multitabs"><i class="mdi mdi-compass"></i> <span>关于我</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="./friends.html" class="multitabs"><i class="mdi mdi-account-circle"></i> <span>友情链接</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="https://i903.255650.xyz" target="_blank"><i class="mdi mdi-image-filter-drama"></i> <span>i903 Cloud</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="http://mvocp.ysepan.com/" target="_blank"><i class="mdi mdi-layers"></i> <span>我的YS网盘</span></a>
-            </li>
-        </nav>
-        
-        <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2022. <a target="_blank" href="//vanlla.net">VanllaOcap</a> All rights reserved.</p>
-        </div>
-      </div>
-      
-    </aside>
-    <!--End 左侧导航-->
-    
-    <!--头部信息-->
-    <header class="lyear-layout-header">
-      
-      <nav class="navbar navbar-default">
-        <div class="topbar">
-          
-          <div class="topbar-left">
-            <div class="lyear-aside-toggler">
-              <span class="lyear-toggler-bar"></span>
-              <span class="lyear-toggler-bar"></span>
-              <span class="lyear-toggler-bar"></span>
-            </div>
-          </div>
-          
-        </div>
-      </nav>
-      
-    </header>
-    <!--End 头部信息-->
-    
-    <!--页面主要内容-->
-    <main class="lyear-layout-content">
-      
-      <div id="iframe-content"></div>
-      
-    </main>
-    <!--End 页面主要内容-->
-  </div>
-</div>
+    <meta charset="UTF-8">
+    <title>VanllaOcap的个人主页 ~ hello</title>
+    <link rel="stylesheet" href="https://fonts.font.im/css?family=Exo:400,400i,700,700i&display=swap">
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Exo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("re0.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/perfect-scrollbar.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-multitabs/multitabs.js"></script>
-<script type="text/javascript" src="js/index.min.js"></script>
+        /* 头部样式 */
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 导航栏样式 */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        .navbar li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* 主内容样式 */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 个人信息样式 */
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .profile-title {
+            font-size: 18px;
+            color: #777;
+        }
+
+        /* 内容块样式 */
+        .content-block {
+            margin-bottom: 30px;
+        }
+
+        .content-block h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .content-block p {
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .content-block ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .content-block ul li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .content-block a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>你好！我是VanllaOcap</h1>
+    </header>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="//255650.xyz" target="_blank">首页</a></li>
+                <li><a href="//blog.255650.xyz" target="_blank">我的博客</a></li>
+                <li><a href="//efgd.255650.xyz" target="_blank">EFGD-NETWORK服务器</a></li>
+                <li><a href="//github.com/mvocp" target="_blank">GITHUB</a></li>
+                <li><a href="https://fanqienovel.com/author-page/2085099648332139" target="_blank">我的番茄小说</a></li>
+            </ul>
+        </div>
+        <div class="content-block">
+            <h3>关于我</h3>
+            <p>RKS13.77的菜鸡阴游人，一名番茄小说作者，会写点PHP和Html，不会css和js（傻逼一个），开MC服务器的傻逼.</p>
+        </div>
+
+        <div class="content-block">
+            <h3>我的作品</h3>
+            <ul>
+<p>GITHUB还没写完呢</p>
+            </ul>
+        </div>
+
+        <div class="content-block">
+            <h3>联系我！</h3>
+            <ul>
+                <li>Email: 66870019@qq.com (QQ就不用我说了吧)</li>
+                <li>网站: <a href="https://255650.xyz">www.255650.xyz</a></li>
+            </ul>
+        </div>
+        <footer class="footer">
+            &copy; 2023 VanllaOcap. All rights reserved.
+        </footer>
+    </div>
+
 </body>
 </html>
