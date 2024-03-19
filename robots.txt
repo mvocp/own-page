@@ -1,0 +1,7 @@
+Disallow:https://255650.xyz/sitemap.xml
+Disallow:https://255650.xyz/sitemapblog.xml
+Disallow:/css/
+Disallow:/assets/
+Disallow:/images/
+User-agent: *
+Disallow:
