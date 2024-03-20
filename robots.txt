@@ -1,5 +1,5 @@
 Disallow:https://255650.xyz/sitemap.xml
-Disallow:https://255650.xyz/sitemapblog.xml
+Disallow:https://blog.255650.xyz/sitemap.xml
 Disallow:/css/
 Disallow:/assets/
 Disallow:/images/
